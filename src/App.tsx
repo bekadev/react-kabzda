@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Raiting} from "./components/raiting/Raiting";
+import {Accordion} from "./components/accordion/Accordion";
 
 function App() {
   return (
     <div className="App">
-
+        <div>
+            <Raiting />
+            <Accordion />
+        </div>
     </div>
   );
 }
